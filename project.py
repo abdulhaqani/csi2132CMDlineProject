@@ -11,7 +11,7 @@ loop = True
 
 cur = myConn.cursor()
 while (loop):
-  selection = input('What would you like to do? \nTo do each whichever you intend, print the letter associated with your command \nAdd listing: a\nView Available Listings: v \nExit: e\n')
+  selection = input('What would you like to do? \nTo do each whichever you intend, print the letter associated with your command \nAdd listing: a\nView Available Listings: v \nDelete: d\nExit: e\n')
   if (selection == 'a' or selection == 'A'):
     print("For each element in the entry, provide it's corresponding value \n")
     propertyId = input("Input a number password for your property Id: ")
